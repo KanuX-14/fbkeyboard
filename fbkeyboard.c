@@ -44,8 +44,8 @@ char *special[][7] = {
 char *layout[] = {
 	"qwertyuiopasdfghjklzxcvbnm",
 	"QWERTYUIOPASDFGHJKLZXCVBNM",
-	"1234567890-=[];\'\\,.`/     ",
-	"!@#$%^&*()_+{}:\"|<>~?     "
+	"1234567890!@#$^&*()-'\":;,?",
+	"+×÷=<>{}[]€£¥₩/~`¤°♡_\\|¡¿"
 };
 
 int layoutuse = 0;
