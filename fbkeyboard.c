@@ -272,30 +272,30 @@ void draw_keyboard(int row, int pressed)
 			(row == 3
 		 && 1 ==
 			 pressed) ? TOUCHCOLOR : BUTTONCOLOR,
-			"Bcksp");
-	draw_textbutton(1, height * 4, width * 3 / 20 - 1,
-			height - 1,
-			(99 == pressed) ? TOUCHCOLOR : BUTTONCOLOR,
-			(layoutuse & 2) ? "abcABC" : "123!@\"");
-	draw_textbutton(width * 3 / 20, height * 4,
-			width / 10 - 1, height - 1,
-			(altlock) ? TOUCHCOLOR : BUTTONCOLOR,
-			"Alt");
-	draw_button(width / 4, height * 4, width / 2 - 1,
-		    height - 1, (row == 4
-				&& 1 ==
-				pressed) ? TOUCHCOLOR :
-		    BUTTONCOLOR, ' ');
-	draw_textbutton(width * 3 / 4, height * 4,
-			width / 10 - 1, height - 1,
-			(ctrllock) ? TOUCHCOLOR : BUTTONCOLOR,
-			"Ctrl");
-	draw_textbutton(width * 17 / 20, height * 4,
-			width * 3 / 20 - 1, height - 1,
-			(row == 4
-			 && 3 ==
-			 pressed) ? TOUCHCOLOR : BUTTONCOLOR,
-			"Enter");
+			 "<[x]");
+	 draw_textbutton(1, height * 4, width * 3 / 20 - 1,
+			 height - 1,
+			 (99 == pressed) ? TOUCHCOLOR : BUTTONCOLOR,
+			 (layoutuse & 2) ? "abcABC" : "123!@\"");
+	 draw_textbutton(width * 3 / 20, height * 4,
+			 width / 10 - 1, height - 1,
+			 (altlock) ? TOUCHCOLOR : BUTTONCOLOR,
+			 "Alt");
+	 draw_button(width / 4, height * 4, width / 2 - 1,
+				 height - 1, (row == 4
+				 && 1 ==
+				 pressed) ? TOUCHCOLOR :
+				 BUTTONCOLOR, ' ');
+	 draw_textbutton(width * 3 / 4, height * 4,
+			 width / 10 - 1, height - 1,
+			 (ctrllock) ? TOUCHCOLOR : BUTTONCOLOR,
+			 "Ctrl");
+	 draw_textbutton(width * 17 / 20, height * 4,
+			 width * 3 / 20 - 1, height - 1,
+			 (row == 4
+				&& 3 ==
+				pressed) ? TOUCHCOLOR : BUTTONCOLOR,
+			 "_>");
 }
 
 void show_fbkeyboard(int fbfd)
