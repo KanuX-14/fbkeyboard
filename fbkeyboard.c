@@ -67,10 +67,10 @@ __u16 keys[][26] = {
 	  KEY_RIGHTSHIFT }
 };
 
-#define TOUCHCOLOR 0x4444ee
-#define BUTTONCOLOR 0x111122
-#define BACKLITCOLOR 0xff0000
-#define TERMCOLOR 0x000000
+#define TOUCHCOLOR 0x004400
+#define BUTTONCOLOR 0x565656
+#define BACKLITCOLOR 0x00bb00
+#define TERMCOLOR 0x141414
 int gap = 2;
 
 int rotate = 0;
