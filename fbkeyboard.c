@@ -68,7 +68,7 @@ __u16 keys[][26] = {
 };
 
 #define TOUCHCOLOR 0x004400
-#define BUTTONCOLOR 0x565656
+#define BUTTONCOLOR 0x212121
 #define BACKLITCOLOR 0x00bb00
 #define TERMCOLOR 0x141414
 int gap = 2;
